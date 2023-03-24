@@ -5,7 +5,7 @@ This is an implementation of Multi-view Representation Learning with Refined Fus
   * Pytorch=1.6.0  
   * Torchvision=0.7.0
 ## Datasets
-The model is trained on AWA/Caltech101/NUSWIDEOBJ/Reuters/CIFAR-10/Flowers-102 dataset, where each dataset are splited into two parts: 60% samples for training, and the rest samples for testing.  We utilize the classification accuracy to evaluate the performance of all the methods.
+The model is trained on AWA/Caltech101/NUSWIDEOBJ/Reuters/CIFAR-10/Flowers-102 dataset, where each dataset are splited into two parts: 70% samples for training, 20% samples for validating, and the rest 10% for testing.  We utilize the classification accuracy to evaluate the performance of all the methods.
 ## Implementation
 
 #Train/Test the model on Caltech20 dataset
